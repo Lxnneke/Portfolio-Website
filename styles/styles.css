@@ -118,7 +118,7 @@ button {
 
 
 /*****************************************/
-/*****************SKILLS*******************/
+/*****************SKILLS******************/
 /*****************************************/
 .skillset {
     width: 100%;
@@ -165,4 +165,40 @@ h3 {
 
 #cs3imgDescriptor {
     left: 35px;
+}
+
+
+/*****************************************/
+/***************ABOUT ME******************/
+/*****************************************/
+
+#aboutMe {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 60px 0;
+}
+
+.leftSideImg {
+    width: 40%;
+    position: relative;
+}
+
+.imageCode {
+    position: absolute;
+}
+
+.information {
+    width: 30%;
+}
+
+.abtMeHeader {
+    color:#282A29;
+    font-size: 4rem;
+    line-height: 60px;
+}
+
+
+
+#projects {
+    background-color: #282A29;
 }
