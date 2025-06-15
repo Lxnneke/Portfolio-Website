@@ -16,7 +16,7 @@ I am hoping to be able to add onto this portfolio at a later date, or possibly j
 * FlexBox / Grid
 
 ## Tasks to complete
-- [ ] Set up the base HTML for the website
+- [x] Set up the base HTML for the website
 - [ ] Use flexbox and grid to set everything right
 - [ ] Style the website using CSS
 - [ ] Add the relevant images

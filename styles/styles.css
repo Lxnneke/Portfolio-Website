@@ -7,3 +7,44 @@
 body {
     background-color: #FAEFE0;
 }
+
+img {
+    height: 60px;
+}
+
+/*****************************************/
+/*****************NAV BAR*****************/
+/*****************************************/
+
+nav {
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+    border-bottom: 3px solid #282A29;
+}
+
+#websiteLogo {
+    height: 50px;
+    margin-left: 40px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #282A29;
+    font-weight: 800;
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+
+@media (min-width: 600px) and (max-width: 991px) {
+    nav a {
+        font-size: 24px;
+        margin-left: 20px;
+    }
+
+    #websiteLogo {
+        margin-left: 20px;
+    }
+}
