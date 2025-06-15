@@ -38,7 +38,7 @@ nav a {
     text-decoration: none;
     color: #282A29;
     font-weight: 800;
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-left: 70px;
 }
 
@@ -67,6 +67,7 @@ nav a {
 .mainSection {
     display: flex;
     justify-content: center;
+    padding-bottom: 70px;
 }
 
 .mainText {
@@ -93,6 +94,7 @@ h2 {
     font-size: 2rem;
     width: 400px;
     padding-bottom: 8%;
+    font-weight: 600;
 }
 
 button {
@@ -114,7 +116,53 @@ button {
     justify-content: center;
 }
 
+
+/*****************************************/
+/*****************SKILLS*******************/
+/*****************************************/
 .skillset {
     width: 100%;
     background-color: #282A29;
+    padding: 30px 0 50px 0;
+    text-align: center;
+}
+
+h3 {
+    color:#FAEFE0;
+    padding-bottom: 30px;
+    font-size: 46px;
+}
+
+.skillImages img {
+    height: 100px;
+    padding: 0 10px;
+}
+
+.htmll {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+.htmll .imgDescriptor {
+    font-size: 16px;
+    background-color:#FAEFE0;
+    color:#282A29;
+    position: absolute;
+    text-align: center;
+    left: 25px;
+    border-radius: 35px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px #282A29;
+    font-family: Noto Sans;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.htmll:hover .imgDescriptor {
+    opacity: 1;
+}
+
+#cs3imgDescriptor {
+    left: 35px;
 }
